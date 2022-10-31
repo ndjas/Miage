@@ -1,0 +1,52 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+body header{
+    position: sticky;
+    top: 0;
+    z-index: 1000000;
+}
+body nav {
+   box-shadow: none;
+   
+
+}
+body nav ul#nav-mobile{
+    color:black;
+    font-weight: bold;
+    margin-right: 10%;
+
+}
+
+body nav ul#nav-mobile li a{
+    color:#6f706f;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+body nav ul#nav-mobile li.active a{
+    color:#fd4c82;
+    font-weight: bold;
+    
+
+}
+body nav ul#nav-mobile li.active {
+    background-color: transparent;
+    
+
+}
+body nav  a.brand-logo{
+  margin-left: 5%;
+  font-weight: bold;
+  font-size: 45px;
+
+}
+main{
+    border: 1px dashed green;
+    height: 100%;
+}
+section{
+    background-color: red;
+}
