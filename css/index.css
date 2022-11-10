@@ -47,11 +47,19 @@ main{
     border: 1px dashed green;
     min-height: auto;
     max-height: max-content;
+    padding: 0;
 }
-section{
-    border: 2px dashed red;
+section.presa{
+    border: 0px dashed red;
     height: auto;
     padding-bottom: 0;
+    background-image: url(../images/wave.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-bottom: 0;
+}
+section.presa .desc_view{
+    margin-bottom: 0;
 }
 .hk_sen_con{
     border: 0px solid blue;
@@ -86,6 +94,7 @@ section{
     height: 50px;
     width: 200px;
     text-align: center;
+    margin-top: 40px;
     
 }
 .desc_view button span {
@@ -121,7 +130,16 @@ section{
     object-fit: cover;
     margin-top: 40px;
     border-radius: 25% 75% / 50%;
-    margin-bottom: 20px;
+    margin-bottom: 65px;
     box-shadow:  5px 5px 30px 5px rgba(0, 0, 255, 0.596);
+   transform: rotate(-5deg);
     
+}
+section.num_sh{
+    border: 1px solid darkblue;
+    padding-top: 0;
+}
+section.num_sh .container{
+    background-color: #6E253C;
+    margin-top: 0;
 }
