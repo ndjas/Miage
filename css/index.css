@@ -63,6 +63,7 @@ section.presa .desc_view{
 }
 .hk_sen_con{
     border: 0px solid blue;
+    margin-top: -45px;
 }
 .hk_sen{
     overflow-wrap: break-word;
@@ -73,6 +74,7 @@ section.presa .desc_view{
     margin-left: 25px;
     margin-bottom: 0;
     color: #0d36b2;
+    line-height: 1.3;
 }
 .hk_sen_sm{
     overflow-wrap: break-word;
@@ -84,6 +86,7 @@ section.presa .desc_view{
     margin-top: 0;
     margin-bottom: 0;
     color: #3568ff;
+    line-height: 1.3;
 }
 .desc_view button{
     background-color: #ff266b;
@@ -94,8 +97,14 @@ section.presa .desc_view{
     height: 50px;
     width: 200px;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 0px;
     
+}
+.desc_view button:hover{
+    background-color: #26ff55;     
+}
+.desc_view button:focus{
+    background-color: #ff266b;     
 }
 .desc_view button span {
     border: 0px solid blue;
@@ -142,4 +151,86 @@ section.num_sh{
 section.num_sh .container{
     background-color: #6E253C;
     margin-top: 0;
+    padding:0;
+    text-align: center;
+    border-radius: 25px 25px 9px 9px;
+}
+.num_sh .container .row {
+    height: 100%;
+    width: 100%;
+    padding:5px;
+ }
+.num_sh .container .row .col img{
+    width: 50%;
+    height: 50%;
+}
+.num_sh .container .row .col{
+    display: flex;
+    vertical-align: center;
+    padding: 0;
+}
+.num_sh .container .row .col span{
+    font-size: 30px;
+    font-weight: bold;
+    color: wheat;
+}
+.abt_con .row .abt_img_1{
+    height: 350px;
+    width: 350px;
+    border-radius: 175px;
+    object-fit: cover;
+}
+.abt_con .row .abt_img_2{
+    height: 220px;
+    width: 220px;
+    border-radius: 110px;
+    position: relative;
+    top: -150px; left:200px;
+    object-fit: cover;
+}
+.abt_fbloc{
+    display: flex;
+}
+.abt_tit{
+    text-transform: uppercase;
+    color:#ff266b;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0;
+    border: 0px solid red;
+    
+    
+}
+
+.ligne{
+    border: 2px solid #ff266b;
+   margin: 0;
+   width: 80px;
+   height: 0px;
+   margin: auto;
+   margin-left: 0;
+   margin-right: 0;
+}
+.dash_lin{
+    border: 2px dashed #ff266b;
+    margin: 0;
+    width: 80px;
+    height: 0px;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+.abt_desc .wlc_word{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 1px;
+}
+.abt_desc p{
+    margin-top: 1px;
+    margin-bottom: 0;
+    text-align: justify;
+}
+.abt_desc ul{
+    list-style-image: url(../images/ziel\ \(1\).png);
+
 }
