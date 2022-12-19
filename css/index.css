@@ -205,6 +205,17 @@ section.num_sh .container{
     
     
 }
+.abt_stit{
+    text-transform: uppercase;
+    color:darkblue;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    border: 0px solid red;
+    
+    
+}
+
 
 .ligne{
     border: 2px solid #ff266b;
@@ -281,4 +292,28 @@ ul.goals_list li{
    width: 32em;
    padding-left: 2.2em;
    padding-right: 1em;
+}
+.crs_tab ul.tabs .indicator {
+    background-color: transparent;
+}
+.crs_tab ul.tabs li.tab  a.active{
+    border: 0px solid red;
+    display:inline;
+    margin: auto; 
+    font-size:1.2em;
+    font-weight: 750;
+    border-radius: 15px;
+    color:white;
+   padding-left: 1em;
+   padding-right: 1em;
+    background-color: #ff266b;
+    transition: 0.5s;
+}
+.crs_tab ul.tabs li.tab {
+  background-color: transparent;
+}
+.crs_tab ul.tabs li.tab  a{
+    color: black;
+    font-weight: 750;
+    background-color: transparent;
 }
