@@ -317,3 +317,22 @@ ul.goals_list li{
     font-weight: 750;
     background-color: transparent;
 }
+
+.card_course .card-image img{
+    height: fit-content;
+}
+.card_course .card-stacked .card-content{
+    padding: inherit;
+    text-align: initial;
+}
+.card_course .card-stacked .card-content h6{
+    margin-top: 1px;
+    color:#ff266b;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.card_course .card-stacked .card-content p{
+    font-size: 3vh;
+    font-weight: 700;
+    color:#3568ff
+}
